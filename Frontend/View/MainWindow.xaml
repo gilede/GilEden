@@ -1,0 +1,46 @@
+﻿<Window x:Class="Frontend.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Frontend"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="1000">
+    <Window.Background>
+        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+            <GradientStop Color="#FF1F4C43" Offset="0"/>
+            <GradientStop Color="#FFC2F1E9" Offset="1"/>
+        </LinearGradientBrush>
+    </Window.Background>
+    <Grid Margin="30">
+        <Grid.Effect>
+            <DropShadowEffect Color="Black" Direction="320" ShadowDepth="2" BlurRadius="8" Opacity="0.5"/>
+        </Grid.Effect>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Label Content="Kanban System" HorizontalAlignment="Center" FontSize="40" FontWeight="Bold" FontStretch="Normal" FontStyle="Italic" Foreground="#FFFFFF" Margin="0,20,0,20"/>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Label Content="Email:" FontSize="18" Grid.Column="0" Grid.Row="0" Margin="0,0,10,0" Foreground="#FFFFFF"/>
+            <TextBox Text="{Binding Email, Mode=TwoWay}" Grid.Column="1" Grid.Row="0" Height="35" FontSize="16" Margin="0,0,0,10"/>
+            <Label Content="Password:" FontSize="18" Grid.Column="0" Grid.Row="1" Margin="0,0,10,0" Foreground="#FFFFFF"/>
+            <TextBox Text="{Binding Password, Mode=TwoWay}" Grid.Column="1" Grid.Row="1" Height="35" FontSize="16" Margin="0,0,0,20"/>
+            <Label Content="{Binding Path=Message, Mode=OneWay}" Foreground="Red" HorizontalAlignment="Center" Grid.Column="0" Grid.Row="2" Grid.ColumnSpan="2"/>
+            <StackPanel Orientation="Horizontal" Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" HorizontalAlignment="Center">
+                <Button Content="Login" x:Name="Login" Click="Login_Click"  Margin="20,0" FontSize="18" Width="150" Height="40" Background="#FF1F4C43" Foreground="White"/>
+                <Button Content="Register" x:Name="Register" Click="Register_Click" Margin="20,0" FontSize="18" Width="150" Height="40" Background="#FFC2F1E9" Foreground="Black"/>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Window>
