@@ -19,7 +19,7 @@ Welcome to the Kanban project repository! This project is designed to implement 
 * Backend API for managing tasks, boards and users
 
 ## Screenshots
-<img src="https://github.com/OrMalky/Kanban/assets/118106721/61dd7621-119c-42a4-b7c1-7a5514a1143d" width="400" height="300"/>
+<img src="https://github.com/gilede/Kanban/assets/128399773/5e28991c-672d-45eb-ad0d-2fcea0cd5e25" width="400" height="300"/>
 <img src="https://github.com/OrMalky/Kanban/assets/118106721/1b23db68-3508-4d10-8507-7066a7ecdec4" width="400" height="300"/>
 <img src="https://github.com/OrMalky/Kanban/assets/118106721/9779c732-22bd-419e-a4ee-565ca82ebe82" width="400" height="300"/>
 <img src="https://github.com/OrMalky/Kanban/assets/118106721/375cec20-b006-4fa3-9754-f85cfca4bc10" width="400" height="300"/>
