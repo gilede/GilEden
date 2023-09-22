@@ -20,9 +20,9 @@ Welcome to the Kanban project repository! This project is designed to implement 
 
 ## Screenshots
 <img src="https://github.com/gilede/Kanban/assets/128399773/5e28991c-672d-45eb-ad0d-2fcea0cd5e25" width="400" height="300"/>
-<img src="https://github.com/OrMalky/Kanban/assets/118106721/1b23db68-3508-4d10-8507-7066a7ecdec4" width="400" height="300"/>
-<img src="https://github.com/OrMalky/Kanban/assets/118106721/9779c732-22bd-419e-a4ee-565ca82ebe82" width="400" height="300"/>
-<img src="https://github.com/OrMalky/Kanban/assets/118106721/375cec20-b006-4fa3-9754-f85cfca4bc10" width="400" height="300"/>
+<img src="https://github.com/gilede/Kanban/assets/128399773/aaa19708-5c39-435e-b262-7d502c93f8ee" width="400" height="300"/>
+<img src="https://github.com/gilede/Kanban/assets/128399773/4ba40936-160c-46c5-8132-075bc500395d" width="400" height="300"/>
+<img src="https://github.com/gilede/Kanban/assets/128399773/0bac740d-9f94-4b56-a1d8-dedba97346e1" width="400" height="300"/>
 
 
 313257545_209222215_208455980
